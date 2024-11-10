@@ -76,7 +76,7 @@ module tt_um_udxs (
   wire _unused = &{ena, clk, rst_n, 1'b0};
 
   always @(posedge clk) begin
-    if(!rst_n) begin
+    if(!rst_n)
       total <= 0;
     else
       total <= new_total;
