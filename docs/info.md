@@ -9,12 +9,8 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+It connects a small single-cycle multiply-accumulation unit to a ReLU output.
 
 ## How to test
 
-Explain how to use your project
-
-## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Reset and then, for every following cycle, provide pairs of signed 4-bit numbers representing the weight-input pair for a given model layer invocation. The output will change cycle-to-cycle. Sample it while providing your last inputs and then reset to attempt another invocation.
