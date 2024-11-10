@@ -58,8 +58,8 @@ module tt_um_udxs (
 
   mlp my_mlp(
     .clk(clk),
-    .i(uio_in[3:0])
-    .w(uio_in[7:4])
+    .i(uio_in[3:0]),
+    .w(uio_in[7:4]),
     .t(total),
     .out(outp)
   );
