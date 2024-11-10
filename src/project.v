@@ -56,7 +56,7 @@ module tt_um_udxs (
   wire signed [15:0] relu_out;
   wire [31:0] outp;
 
-  mlp my_mlp(
+  mlp_xls my_mlp(
     .clk(clk),
     .i(uio_in[3:0]),
     .w(uio_in[7:4]),
