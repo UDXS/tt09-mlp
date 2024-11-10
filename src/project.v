@@ -80,7 +80,6 @@ module tt_um_udxs (
       total <= 0;
     else
       total <= new_total;
-    end
   end
 
 endmodule
